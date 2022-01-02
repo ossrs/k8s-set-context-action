@@ -14,7 +14,7 @@ GitHub Action for setting context before deploying to Kubernetes clusters.
 - name: Set K8s context
   uses: ossrs/k8s-set-context@v1
   with:
-    kubeconfig: '${{ secrets.KUBECONFIG }'
+    kubeconfig: '${{ secrets.KUBECONFIG }}'
 
 - name: Run K8s
   run: |-
