@@ -1,5 +1,5 @@
 {
-  "name": "k8s-set-context",
+  "name": "k8s-set-context-action",
   "version": "1.0.0",
   "description": "GitHub Action for setting context before deploying to Kubernetes clusters",
   "main": "src/index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ossrs/k8s-set-context.git"
+    "url": "git+https://github.com/ossrs/k8s-set-context-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ossrs/k8s-set-context/issues"
+    "url": "https://github.com/ossrs/k8s-set-context-action/issues"
   },
-  "homepage": "https://github.com/ossrs/k8s-set-context#readme",
+  "homepage": "https://github.com/ossrs/k8s-set-context-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0"
   }

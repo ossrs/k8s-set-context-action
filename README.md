@@ -1,4 +1,4 @@
-# k8s-set-context
+# k8s-set-context-action
 
 GitHub Action for setting context before deploying to Kubernetes clusters.
 
@@ -12,7 +12,7 @@ GitHub Action for setting context before deploying to Kubernetes clusters.
 
 ```yaml
 - name: Set K8s context
-  uses: ossrs/k8s-set-context@v1
+  uses: ossrs/k8s-set-context-action@v1
   with:
     kubeconfig: '${{ secrets.KUBECONFIG }}'
 
