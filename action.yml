@@ -1,5 +1,5 @@
-name: 'Kubernetes set and export kubeconfig'
-description: 'GitHub Action for exporting KUBECONFIG before deploying to Kubernetes clusters'
+name: 'Kubernetes set context'
+description: 'GitHub Action for setting context before deploying to Kubernetes clusters'
 inputs:
   kubeconfig:  # Setup the KUBECONFIG
     description: 'The content of KUBECONFIG, like $HOME/.kube/config'
@@ -7,4 +7,4 @@ inputs:
     default: ''
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'src/index.js'
