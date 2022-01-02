@@ -1,4 +1,4 @@
-name: 'Kubernetes set context'
+name: 'Common Kubernetes set context'
 description: 'GitHub Action for setting context before deploying to Kubernetes clusters'
 inputs:
   kubeconfig:  # Setup the KUBECONFIG
