@@ -5,6 +5,9 @@ inputs:
     description: 'The content of KUBECONFIG, like $HOME/.kube/config'
     required: true
     default: ''
+branding:
+  color: 'blue'
+  icon: 'terminal'
 runs:
   using: 'node12'
   main: 'src/index.js'
