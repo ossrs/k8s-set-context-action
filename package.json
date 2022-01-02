@@ -1,0 +1,23 @@
+{
+  "name": "kubeconfig-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for exporting KUBECONFIG before deploying to Kubernetes clusters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ossrs/kubeconfig-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ossrs/kubeconfig-action/issues"
+  },
+  "homepage": "https://github.com/ossrs/kubeconfig-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
