@@ -1,5 +1,7 @@
 # k8s-set-context-action
 
+**IMPORTANT NOTE**: This repository is depreacated and archived, please use [srs-cdk](https://github.com/ossrs/srs-cdk) instead. CDK is the future of default and recommended deployment for SRS and Oryx.
+
 GitHub Action for setting context before deploying to Kubernetes clusters.
 
 ## Action inputs
